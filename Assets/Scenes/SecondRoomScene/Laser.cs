@@ -17,6 +17,11 @@ public class Laser : MonoBehaviour
         if(Physics.Raycast(transform.position, transform.forward, out _raycastHit))
         {
             lineRenderer.SetPosition(1, transform.InverseTransformPoint(_raycastHit.point));
+            Receptor receptor = _raycastHit.transform.gameObject.GetComponent<Receptor>();
+            if (receptor)
+            {
+                receptor.Trigger();
+            }
         } else {
             lineRenderer.SetPosition(1, transform.position + transform.forward * MaxLaserDistance);
         }

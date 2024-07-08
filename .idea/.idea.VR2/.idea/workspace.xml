@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d4150fb-3878-469a-af67-08820f809a8a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SecondRoomScene/LaserCaster.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SecondRoomScene/LaserCaster.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SecondRoomScene/SecondRoomScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SecondRoomScene/SecondRoomScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VR2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SecondRoomScene/Laser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SecondRoomScene/Laser.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +97,7 @@
       <workItem from="1720435436597" duration="69000" />
       <workItem from="1720440118236" duration="2616000" />
       <workItem from="1720443125026" duration="20000" />
-      <workItem from="1720444795982" duration="5238000" />
+      <workItem from="1720444795982" duration="6071000" />
     </task>
     <servers />
   </component>
