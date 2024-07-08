@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d4150fb-3878-469a-af67-08820f809a8a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.VR2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SecondRoomScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SecondRoomScene/SecondRoomScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SecondRoomScene.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SecondRoomScene/SecondRoomScene.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SecondRoomScene/LaserEmitor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SecondRoomScene/LaserEmitor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SecondRoomScene/LaserCaster.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SecondRoomScene/LaserCaster.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SecondRoomScene/SecondRoomScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SecondRoomScene/SecondRoomScene.unity.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +20,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/70ef72ecddd54bff99c9bf0297916ee5171a00/b1/f55746e7/LineRenderer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/SecondRoomScene/Laser.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -99,7 +99,7 @@
       <workItem from="1720435436597" duration="69000" />
       <workItem from="1720440118236" duration="2616000" />
       <workItem from="1720443125026" duration="20000" />
-      <workItem from="1720444795982" duration="4818000" />
+      <workItem from="1720444795982" duration="5238000" />
     </task>
     <servers />
   </component>

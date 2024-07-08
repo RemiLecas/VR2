@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LaserCaster : MonoBehaviour
+public class Laser : MonoBehaviour
 {
     private const float MaxLaserDistance = 500;
     private RaycastHit _raycastHit;
