@@ -46,14 +46,33 @@ public class PuzzleManager : MonoBehaviour
 
         if (allCorrect)
         {
-            Debug.Log("Porte bonne !");
             OpenDoor();
         }
     }
 
     void OpenDoor()
     {
-        door.transform.Translate(0, 5, 0);
+        StartCoroutine(OpenDoorAnimation());
+        Debug.Log("Porte ouverte !");
+    }
+
+    IEnumerator OpenDoorAnimation()
+    {
+        Vector3 startPos = door.transform.position;
+        Vector3 endPos = startPos + new Vector3(0, 5, 0); // Translation de 5 unités vers le haut
+
+        float duration = 1.0f;
+        float elapsed = 0.0f;
+
+        while (elapsed < duration)
+        {
+            float t = elapsed / duration;
+            door.transform.position = Vector3.Lerp(startPos, endPos, t);
+            elapsed += Time.deltaTime;
+            yield return null;
+        }
+
+        door.transform.position = endPos; // Assurez-vous que la porte est exactement à la position finale
         Debug.Log("Porte ouverte !");
     }
 }
