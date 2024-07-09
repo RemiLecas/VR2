@@ -5,8 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d4150fb-3878-469a-af67-08820f809a8a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/SecondRoomScene/Door.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/SecondRoomScene/Door.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VR2.dir/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VR2.dir/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VR2.dir/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VR2.dir/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VR2/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VR2/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VR2/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VR2/.idea/projectSettingsUpdater.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VR2/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VR2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SecondRoomScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SecondRoomScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SecondRoomScene/Laser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SecondRoomScene/Laser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SecondRoomScene/Receptor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SecondRoomScene/Receptor.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +30,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/70ef72ecddd54bff99c9bf0297916ee5171a00/16/feb1c94a/Scene.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/70ef72ecddd54bff99c9bf0297916ee5171a00/41/a602c157/CastHelper`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/70ef72ecddd54bff99c9bf0297916ee5171a00/b1/f55746e7/LineRenderer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/70ef72ecddd54bff99c9bf0297916ee5171a00/e6/715786cf/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/SecondRoomScene/Laser.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
@@ -97,7 +113,8 @@
       <workItem from="1720435436597" duration="69000" />
       <workItem from="1720440118236" duration="2616000" />
       <workItem from="1720443125026" duration="20000" />
-      <workItem from="1720444795982" duration="6071000" />
+      <workItem from="1720444795982" duration="6137000" />
+      <workItem from="1720508127987" duration="19079000" />
     </task>
     <servers />
   </component>

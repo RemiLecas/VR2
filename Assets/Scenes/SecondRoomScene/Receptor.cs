@@ -1,23 +1,19 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Receptor : MonoBehaviour
+public abstract class Receptor: MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    protected bool IsActive;
 
-    // Update is called once per frame
-    void Update()
+    public void Update()
     {
-        
+        IsActive = false;
     }
 
     public void Trigger()
     {
-        
+        IsActive = true;
     }
 }
