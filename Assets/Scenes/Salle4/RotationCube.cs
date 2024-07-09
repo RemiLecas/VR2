@@ -6,32 +6,25 @@ using UnityEngine.InputSystem;
 
 public class RotationCube : MonoBehaviour
 {
-    public Material[] correctMaterials; // Les matériaux corrects pour les faces du cube
+    public Material[] correctMaterials;
     private Renderer cubeRenderer;
-    public float rotationDuration = 0.5f; // Durée de la rotation en secondes
+    public float rotationDuration = 0.5f;
 
-    private bool isRotating = false; // Indique si le cube est en train de tourner
-    private float currentRotation = 0f; // Garder une trace de la rotation actuelle en degrés
+    private bool isRotating = false;
+    private float currentRotation = 0f;
 
     void Start()
     {
         cubeRenderer = GetComponent<Renderer>();
-        currentRotation = transform.localEulerAngles.x; // Initialiser la rotation actuelle
+        currentRotation = transform.localEulerAngles.x;
     }
 
-    void Update()
+    public void RotateCubeOnClick()
     {
-        // Vérifie si le cube est en rotation et s'il est correctement placé
-        if (!isRotating && Mouse.current.leftButton.wasPressedThisFrame)
+        if (!isRotating)
         {
-            RaycastHit hit;
-            Ray ray = Camera.main.ScreenPointToRay(Mouse.current.position.ReadValue());
-
-            if (Physics.Raycast(ray, out hit) && hit.transform == transform)
-            {
-                StartCoroutine(RotateCube(90, rotationDuration)); // Tourne de 90 degrés autour de l'axe X
-                Debug.Log("Cube bougé !");
-            }
+            StartCoroutine(RotateCube(90, rotationDuration));
+            Debug.Log("Cube bougé !");
         }
     }
 
@@ -39,7 +32,6 @@ public class RotationCube : MonoBehaviour
     {
         isRotating = true;
 
-        // Calculer la nouvelle rotation en veillant à ce qu'elle reste dans les limites de 0 à 360 degrés
         currentRotation = (currentRotation + angle) % 360;
 
         Quaternion fromAngle = transform.rotation;
@@ -65,7 +57,6 @@ public class RotationCube : MonoBehaviour
 
     public float GetCurrentRotation()
     {
-        // Retourne la rotation actuelle autour de l'axe X, en s'assurant qu'elle est entre 0 et 360
         float rotation = transform.localEulerAngles.x;
         if (rotation < 0)
         {

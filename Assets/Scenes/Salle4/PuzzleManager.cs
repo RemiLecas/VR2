@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PuzzleManager : MonoBehaviour
 {
-    public RotationCube[] cubes; // Les cubes faisant partie du puzzle
+    public RotationCube[] cubes;
     public GameObject door;
 
     private static PuzzleManager instance;
@@ -59,7 +59,7 @@ public class PuzzleManager : MonoBehaviour
     IEnumerator OpenDoorAnimation()
     {
         Vector3 startPos = door.transform.position;
-        Vector3 endPos = startPos + new Vector3(0, 5, 0); // Translation de 5 unités vers le haut
+        Vector3 endPos = startPos + new Vector3(0, 5, 0);
 
         float duration = 1.0f;
         float elapsed = 0.0f;
@@ -72,7 +72,7 @@ public class PuzzleManager : MonoBehaviour
             yield return null;
         }
 
-        door.transform.position = endPos; // Assurez-vous que la porte est exactement à la position finale
+        door.transform.position = endPos;
         Debug.Log("Porte ouverte !");
     }
 }
