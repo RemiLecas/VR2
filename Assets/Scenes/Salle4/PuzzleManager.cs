@@ -4,38 +4,56 @@ using UnityEngine;
 
 public class PuzzleManager : MonoBehaviour
 {
-    public static PuzzleManager Instance;
-
+    public RotationCube[] cubes; // Les cubes faisant partie du puzzle
     public GameObject door;
-    public RotationCube[] cubes;
 
-    private bool puzzleSolved;
-
-    void Awake()
+    private static PuzzleManager instance;
+    public static PuzzleManager Instance
     {
-        Instance = this;
+        get
+        {
+            if (instance == null)
+            {
+                instance = FindObjectOfType<PuzzleManager>();
+            }
+            return instance;
+        }
+    }
+
+    void Start()
+    {
+        instance = this;
+        CheckCubes();
     }
 
     public void CheckCubes()
     {
-        foreach (var cube in cubes)
+        float[] correctRotations = { 90f, 360f, 90f };
+
+        bool allCorrect = true;
+
+        for (int i = 0; i < cubes.Length; i++)
         {
-            if (!cube.IsCorrectlyRotated())
+            float currentRotation = cubes[i].GetCurrentRotation();
+            Debug.Log($"Cube {i + 1} : Rotation actuelle = {currentRotation}, Rotation correcte = {correctRotations[i]}");
+
+            if (Mathf.Abs(currentRotation - correctRotations[i]) > 0.1f)
             {
-                return;
+                allCorrect = false;
+                break;
             }
         }
 
-        OpenDoor();
+        if (allCorrect)
+        {
+            Debug.Log("Porte bonne !");
+            OpenDoor();
+        }
     }
 
     void OpenDoor()
     {
-        if (!puzzleSolved)
-        {
-            puzzleSolved = true;
-            // Code pour ouvrir la porte, par exemple en déplaçant le cube de la porte
-            door.transform.Translate(0, 3, 0); // Déplace la porte vers le haut de 5 unités
-        }
+        door.transform.Translate(0, 5, 0);
+        Debug.Log("Porte ouverte !");
     }
 }
