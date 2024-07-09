@@ -9,9 +9,7 @@ public class TeleportToScene : MonoBehaviour
     {
         if (other.gameObject.name.StartsWith("XR"))
         {
-            SceneManager.LoadScene(nextSceneName);
-            SceneManager.SetActiveScene(SceneManager.GetSceneByName(nextSceneName));
-            SceneManager.UnloadSceneAsync(gameObject.scene);
+            SceneManager.LoadSceneAsync(nextSceneName);
         }
     }
 }
