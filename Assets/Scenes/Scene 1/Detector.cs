@@ -9,11 +9,16 @@ using static UnityEditor.Progress;
 public class cubeDetector : MonoBehaviour
 {
     public GameObject doorToHide;
+    public AudioClip duckSound;
+    private AudioSource audioSource;
+
 
     // Start is called before the first frame update
     void Start()
     {
         XRSettings.enabled = true;
+        audioSource = GetComponent<AudioSource>();
+
     }
 
     // Update is called once per frame
@@ -29,12 +34,12 @@ public class cubeDetector : MonoBehaviour
         GameObject gameObject = collision.gameObject;
         if (gameObject.name == "Key" && gameObject.GetComponent<XRGrabInteractable>())
         {
-            Debug.Log("Cube bleu sur Cube rouge !");
             DisableGrab(collision.gameObject);
+            TriggerDuckSound();
 
             if (doorToHide != null)
             {
-                doorToHide.SetActive(false); // Désactivez le GameObject de la porte
+                doorToHide.SetActive(false);
             }
         }
     }
@@ -50,5 +55,12 @@ public class cubeDetector : MonoBehaviour
         {
             rigidbody.isKinematic = true;
         }
+    }
+
+    void TriggerDuckSound()
+    {
+        Debug.Log("TriggerDuckSound()");
+        audioSource.clip = duckSound;
+        audioSource.Play();
     }
 }
