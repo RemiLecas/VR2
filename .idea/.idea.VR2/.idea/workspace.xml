@@ -7,6 +7,12 @@
     <list default="true" id="0d4150fb-3878-469a-af67-08820f809a8a" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/Assets/Scenes/SecondRoomScene/Door.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Scenes/SecondRoomScene/Door.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/SecondRoomScene/LaserReceptorDoorOpener.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/SecondRoomScene/LaserReceptorDoorOpener.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/SecondRoomScene/TeleportToScene.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/SecondRoomScene/TeleportToScene.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/ThirdRoomScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/ThirdRoomScene.unity.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VR2.dir/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VR2.dir/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VR2.dir/.idea/indexLayout.xml" beforeDir="false" />
@@ -20,6 +26,7 @@
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SecondRoomScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SecondRoomScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SecondRoomScene/Laser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SecondRoomScene/Laser.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SecondRoomScene/Receptor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SecondRoomScene/Receptor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +121,7 @@
       <workItem from="1720440118236" duration="2616000" />
       <workItem from="1720443125026" duration="20000" />
       <workItem from="1720444795982" duration="6137000" />
-      <workItem from="1720508127987" duration="19079000" />
+      <workItem from="1720508127987" duration="19705000" />
     </task>
     <servers />
   </component>
