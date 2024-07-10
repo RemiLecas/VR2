@@ -3570,7 +3570,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: 3d46551c47ef2c94db36b3032d6926b5, type: 3}
+      - m_Target: {fileID: 11500000, guid: 415a4719368e91648bfb595c05ff34e1, type: 3}
         m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
         m_MethodName: set_name
         m_Mode: 5
