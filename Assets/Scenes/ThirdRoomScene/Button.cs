@@ -17,9 +17,7 @@ public class Button : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log(_grab);
         if (_grab.isSelected) {
-            Debug.Log("Grabbed");
             onGrab?.Invoke();
         }
     }
