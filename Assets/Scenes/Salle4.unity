@@ -243,6 +243,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentCube: {fileID: 1131908893}
+  selectAction:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Select
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 76be1e7f-1a51-4fb9-af5e-e13120250bc7
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 1855836014308820768, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!1001 &112827331
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -749,6 +761,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentCube: {fileID: 1405606633}
+  selectAction:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Select
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 6b37349a-9c7c-4bdd-8a71-d7b0b2780800
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 1855836014308820768, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!1 &341360254
 GameObject:
   m_ObjectHideFlags: 0
@@ -1314,6 +1338,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentCube: {fileID: 1405606633}
+  selectAction:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Select
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: eda89f20-ff11-4aa3-94e9-cd331a6c85a3
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 1855836014308820768, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!1001 &652124635
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1799,6 +1835,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentCube: {fileID: 371229211}
+  selectAction:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Select
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: a5c222cc-9b11-4817-9edc-abffdf7e2d33
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 1855836014308820768, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!1001 &804536327
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2234,6 +2282,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentCube: {fileID: 1405606633}
+  selectAction:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Select
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: cb363f4a-b35f-4b35-8dd9-dfed1a7a2fc7
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 1855836014308820768, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!1 &886010776
 GameObject:
   m_ObjectHideFlags: 0
@@ -2459,6 +2519,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentCube: {fileID: 1405606633}
+  selectAction:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Select
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: aa7df21e-1ee6-4e12-ad8f-a4c8e1774023
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 1855836014308820768, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!1 &948401620
 GameObject:
   m_ObjectHideFlags: 0
@@ -2712,6 +2784,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentCube: {fileID: 371229211}
+  selectAction:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Select
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 89fcf034-01b7-4729-961a-8924a7f6efe1
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 1855836014308820768, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!1 &1113668339
 GameObject:
   m_ObjectHideFlags: 0
@@ -3090,6 +3174,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentCube: {fileID: 371229211}
+  selectAction:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Select
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: ae4682a8-a83a-4658-a8b0-d520fac0e4d4
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 1855836014308820768, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!1 &1291076483
 GameObject:
   m_ObjectHideFlags: 0
@@ -3294,6 +3390,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentCube: {fileID: 1131908893}
+  selectAction:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Select
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 6a76d0b7-ac63-4a18-8ff5-0ece8525872f
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 1855836014308820768, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!1 &1335163366
 GameObject:
   m_ObjectHideFlags: 0
@@ -4217,6 +4325,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentCube: {fileID: 1131908893}
+  selectAction:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Select
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 279c8de3-4960-4491-bc04-abd9bf9dc3ef
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 1855836014308820768, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!1 &1598495247
 GameObject:
   m_ObjectHideFlags: 0
@@ -4957,6 +5077,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentCube: {fileID: 1131908893}
+  selectAction:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Select
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: ed1ee42d-1cdd-4370-a139-d282f03c8a83
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 1855836014308820768, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!1 &2046629158
 GameObject:
   m_ObjectHideFlags: 0
@@ -5108,6 +5240,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentCube: {fileID: 371229211}
+  selectAction:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Select
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 166b32a1-3bf6-4373-96f5-648d6fe54445
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 1855836014308820768, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!1 &2072755514
 GameObject:
   m_ObjectHideFlags: 0
