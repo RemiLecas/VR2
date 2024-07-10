@@ -8,6 +8,7 @@ public class MainMenu : MonoBehaviour
      public Canvas canvasToShow;
      
     public void AfficheMenu(){
+
         canvasToShow.gameObject.SetActive(true);
     }
 }

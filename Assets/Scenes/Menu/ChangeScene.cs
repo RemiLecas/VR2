@@ -9,6 +9,7 @@ public class ChangeScene : MonoBehaviour
         SceneManager.LoadSceneAsync(NameScene);
    } 
    public void QuitGame(){
+      Debug.Log("quit game");
      Application.Quit();
    }
 }

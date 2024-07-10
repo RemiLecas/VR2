@@ -5,18 +5,20 @@ using UnityEngine.InputSystem;
 
 public class NewBehaviourScript : MonoBehaviour
 {
-    public RotationCube parentCube; // Référence au script RotationCube attaché au cube parent
+    public RotationCube parentCube;
+
+    public InputActionProperty selectAction;
 
     void Update()
     {
-        if (Mouse.current.leftButton.wasPressedThisFrame)
+        if (selectAction.action.WasPressedThisFrame())
         {
             RaycastHit hit;
-            Ray ray = Camera.main.ScreenPointToRay(Mouse.current.position.ReadValue());
+            var ray = new Ray(Camera.main.transform.position, Camera.main.transform.forward);
 
             if (Physics.Raycast(ray, out hit) && hit.transform == transform)
             {
-                parentCube.RotateCubeOnClick(); // Appelle la fonction de rotation sur le script du cube parent
+                parentCube.RotateCubeOnClick();
             }
         }
     }
