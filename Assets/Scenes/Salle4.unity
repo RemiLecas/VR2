@@ -242,19 +242,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 082139f629ce51b43bd6c7c30f7028a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentCube: {fileID: 1131908893}
-  selectAction:
-    m_UseReference: 1
-    m_Action:
-      m_Name: Select
-      m_Type: 0
-      m_ExpectedControlType: 
-      m_Id: 76be1e7f-1a51-4fb9-af5e-e13120250bc7
-      m_Processors: 
-      m_Interactions: 
-      m_SingletonActionBindings: []
-      m_Flags: 0
-    m_Reference: {fileID: 1855836014308820768, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  rotationCube: {fileID: 1131908893}
+  selectAction: {fileID: -6131295136447488360, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!1 &136901109
 GameObject:
   m_ObjectHideFlags: 0
@@ -699,19 +688,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 082139f629ce51b43bd6c7c30f7028a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentCube: {fileID: 1405606633}
-  selectAction:
-    m_UseReference: 1
-    m_Action:
-      m_Name: Select
-      m_Type: 0
-      m_ExpectedControlType: 
-      m_Id: 6b37349a-9c7c-4bdd-8a71-d7b0b2780800
-      m_Processors: 
-      m_Interactions: 
-      m_SingletonActionBindings: []
-      m_Flags: 0
-    m_Reference: {fileID: 1855836014308820768, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  rotationCube: {fileID: 1405606633}
+  selectAction: {fileID: -6131295136447488360, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!1 &341360254
 GameObject:
   m_ObjectHideFlags: 0
@@ -885,7 +863,7 @@ GameObject:
   - component: {fileID: 371229214}
   - component: {fileID: 371229213}
   - component: {fileID: 371229212}
-  - component: {fileID: 371229211}
+  - component: {fileID: 371229219}
   m_Layer: 0
   m_Name: Enigme 1
   m_TagString: Untagged
@@ -893,20 +871,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &371229211
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 371229210}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1adfc1bf48375864382afdc07214196e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  correctMaterials: []
-  rotationDuration: 0.5
 --- !u!65 &371229212
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -926,7 +890,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1.2, y: 1.2, z: 1.2}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &371229213
 MeshRenderer:
@@ -986,7 +950,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 371229210}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.147, y: 1.075, z: -3.607}
+  m_LocalPosition: {x: 1.147, y: 1.075, z: -3.604}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -997,6 +961,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &371229219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 371229210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1adfc1bf48375864382afdc07214196e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctMaterials: []
+  rotationDuration: 0.5
 --- !u!65 &421334953
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1304,19 +1282,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 082139f629ce51b43bd6c7c30f7028a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentCube: {fileID: 1405606633}
-  selectAction:
-    m_UseReference: 1
-    m_Action:
-      m_Name: Select
-      m_Type: 0
-      m_ExpectedControlType: 
-      m_Id: eda89f20-ff11-4aa3-94e9-cd331a6c85a3
-      m_Processors: 
-      m_Interactions: 
-      m_SingletonActionBindings: []
-      m_Flags: 0
-    m_Reference: {fileID: 1855836014308820768, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  rotationCube: {fileID: 1405606633}
+  selectAction: {fileID: -6131295136447488360, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!1001 &652124635
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1591,7 +1558,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4134505312059479865, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.13
+      value: 0.758
       objectReference: {fileID: 0}
     - target: {fileID: 4134505312059479865, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1599,7 +1566,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4134505312059479865, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.021
+      value: -2.475
       objectReference: {fileID: 0}
     - target: {fileID: 4134505312059479865, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1813,11 +1780,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &694448611
@@ -1882,19 +1849,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 082139f629ce51b43bd6c7c30f7028a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentCube: {fileID: 371229211}
-  selectAction:
-    m_UseReference: 1
-    m_Action:
-      m_Name: Select
-      m_Type: 0
-      m_ExpectedControlType: 
-      m_Id: a5c222cc-9b11-4817-9edc-abffdf7e2d33
-      m_Processors: 
-      m_Interactions: 
-      m_SingletonActionBindings: []
-      m_Flags: 0
-    m_Reference: {fileID: 1855836014308820768, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  rotationCube: {fileID: 371229219}
+  selectAction: {fileID: -6131295136447488360, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!114 &694448614
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1902,7 +1858,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 694448608}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
@@ -1939,7 +1895,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 371229211}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: RotationCube, Assembly-CSharp
         m_MethodName: RotateCubeOnClick
         m_Mode: 1
@@ -2385,19 +2341,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 082139f629ce51b43bd6c7c30f7028a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentCube: {fileID: 1405606633}
-  selectAction:
-    m_UseReference: 1
-    m_Action:
-      m_Name: Select
-      m_Type: 0
-      m_ExpectedControlType: 
-      m_Id: cb363f4a-b35f-4b35-8dd9-dfed1a7a2fc7
-      m_Processors: 
-      m_Interactions: 
-      m_SingletonActionBindings: []
-      m_Flags: 0
-    m_Reference: {fileID: 1855836014308820768, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  rotationCube: {fileID: 1405606633}
+  selectAction: {fileID: -6131295136447488360, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!1 &886010776
 GameObject:
   m_ObjectHideFlags: 0
@@ -2622,19 +2567,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 082139f629ce51b43bd6c7c30f7028a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentCube: {fileID: 1405606633}
-  selectAction:
-    m_UseReference: 1
-    m_Action:
-      m_Name: Select
-      m_Type: 0
-      m_ExpectedControlType: 
-      m_Id: aa7df21e-1ee6-4e12-ad8f-a4c8e1774023
-      m_Processors: 
-      m_Interactions: 
-      m_SingletonActionBindings: []
-      m_Flags: 0
-    m_Reference: {fileID: 6558622148059887818, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  rotationCube: {fileID: 1405606633}
+  selectAction: {fileID: -6131295136447488360, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!1 &948401620
 GameObject:
   m_ObjectHideFlags: 0
@@ -2781,9 +2715,8 @@ GameObject:
   - component: {fileID: 956307198}
   - component: {fileID: 956307197}
   - component: {fileID: 956307200}
-  - component: {fileID: 956307202}
   m_Layer: 0
-  m_Name: Plane (1)
+  m_Name: Plane (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2888,40 +2821,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 082139f629ce51b43bd6c7c30f7028a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentCube: {fileID: 371229211}
-  selectAction:
-    m_UseReference: 1
-    m_Action:
-      m_Name: Select
-      m_Type: 0
-      m_ExpectedControlType: 
-      m_Id: 89fcf034-01b7-4729-961a-8924a7f6efe1
-      m_Processors: 
-      m_Interactions: 
-      m_SingletonActionBindings: []
-      m_Flags: 0
-    m_Reference: {fileID: 6558622148059887818, guid: c348712bda248c246b8c49b3db54643f, type: 3}
---- !u!65 &956307202
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 956307195}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 10.000001, y: 2, z: 10.000002}
-  m_Center: {x: 0, y: 0, z: -0.0000076293945}
+  rotationCube: {fileID: 371229219}
+  selectAction: {fileID: -6131295136447488360, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!1 &1113668339
 GameObject:
   m_ObjectHideFlags: 0
@@ -3109,7 +3010,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1.2, y: 1.2, z: 1.2}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1131908895
 MeshRenderer:
@@ -3169,7 +3070,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1131908892}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.909, y: 1.075, z: -3.608}
+  m_LocalPosition: {x: 0.909, y: 1.075, z: -3.604}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3193,7 +3094,6 @@ GameObject:
   - component: {fileID: 1234374035}
   - component: {fileID: 1234374034}
   - component: {fileID: 1234374037}
-  - component: {fileID: 1234374038}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -3231,11 +3131,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1234374035
@@ -3300,75 +3200,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 082139f629ce51b43bd6c7c30f7028a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentCube: {fileID: 371229211}
-  selectAction:
-    m_UseReference: 1
-    m_Action:
-      m_Name: Select
-      m_Type: 0
-      m_ExpectedControlType: 
-      m_Id: ae4682a8-a83a-4658-a8b0-d520fac0e4d4
-      m_Processors: 
-      m_Interactions: 
-      m_SingletonActionBindings: []
-      m_Flags: 0
-    m_Reference: {fileID: 1855836014308820768, guid: c348712bda248c246b8c49b3db54643f, type: 3}
---- !u!114 &1234374038
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1234374032}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 0}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 371229211}
-        m_TargetAssemblyTypeName: RotationCube, Assembly-CSharp
-        m_MethodName: RotateCubeOnClick
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+  rotationCube: {fileID: 371229219}
+  selectAction: {fileID: -6131295136447488360, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!1 &1291076483
 GameObject:
   m_ObjectHideFlags: 0
@@ -3572,19 +3405,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 082139f629ce51b43bd6c7c30f7028a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentCube: {fileID: 1131908893}
-  selectAction:
-    m_UseReference: 1
-    m_Action:
-      m_Name: Select
-      m_Type: 0
-      m_ExpectedControlType: 
-      m_Id: 6a76d0b7-ac63-4a18-8ff5-0ece8525872f
-      m_Processors: 
-      m_Interactions: 
-      m_SingletonActionBindings: []
-      m_Flags: 0
-    m_Reference: {fileID: 1855836014308820768, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  rotationCube: {fileID: 1131908893}
+  selectAction: {fileID: -6131295136447488360, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!1 &1335163366
 GameObject:
   m_ObjectHideFlags: 0
@@ -4012,7 +3834,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1.2, y: 1.2, z: 1.2}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1405606635
 MeshRenderer:
@@ -4507,19 +4329,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 082139f629ce51b43bd6c7c30f7028a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentCube: {fileID: 1131908893}
-  selectAction:
-    m_UseReference: 1
-    m_Action:
-      m_Name: Select
-      m_Type: 0
-      m_ExpectedControlType: 
-      m_Id: 279c8de3-4960-4491-bc04-abd9bf9dc3ef
-      m_Processors: 
-      m_Interactions: 
-      m_SingletonActionBindings: []
-      m_Flags: 0
-    m_Reference: {fileID: 1855836014308820768, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  rotationCube: {fileID: 1131908893}
+  selectAction: {fileID: -6131295136447488360, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!1 &1598495247
 GameObject:
   m_ObjectHideFlags: 0
@@ -4983,7 +4794,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cubes:
-  - {fileID: 371229211}
+  - {fileID: 371229219}
   - {fileID: 1405606633}
   - {fileID: 1131908893}
   door: {fileID: 2072755514}
@@ -5259,19 +5070,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 082139f629ce51b43bd6c7c30f7028a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentCube: {fileID: 1131908893}
-  selectAction:
-    m_UseReference: 1
-    m_Action:
-      m_Name: Select
-      m_Type: 0
-      m_ExpectedControlType: 
-      m_Id: ed1ee42d-1cdd-4370-a139-d282f03c8a83
-      m_Processors: 
-      m_Interactions: 
-      m_SingletonActionBindings: []
-      m_Flags: 0
-    m_Reference: {fileID: 6558622148059887818, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  rotationCube: {fileID: 1131908893}
+  selectAction: {fileID: -6131295136447488360, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!1 &2046629158
 GameObject:
   m_ObjectHideFlags: 0
@@ -5354,11 +5154,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &2061100162
@@ -5423,19 +5223,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 082139f629ce51b43bd6c7c30f7028a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentCube: {fileID: 371229211}
-  selectAction:
-    m_UseReference: 1
-    m_Action:
-      m_Name: Select
-      m_Type: 0
-      m_ExpectedControlType: 
-      m_Id: 166b32a1-3bf6-4373-96f5-648d6fe54445
-      m_Processors: 
-      m_Interactions: 
-      m_SingletonActionBindings: []
-      m_Flags: 0
-    m_Reference: {fileID: 1855836014308820768, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  rotationCube: {fileID: 371229219}
+  selectAction: {fileID: -6131295136447488360, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!114 &2061100165
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5443,7 +5232,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2061100159}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
@@ -5480,7 +5269,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 371229211}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: RotationCube, Assembly-CSharp
         m_MethodName: RotateCubeOnClick
         m_Mode: 1
