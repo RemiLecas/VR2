@@ -9,17 +9,13 @@ public class NewBehaviourScript : MonoBehaviour
 
     public InputActionProperty selectAction;
 
-    void Update()
+    private void HandleClick()
     {
         if (selectAction.action.WasPressedThisFrame())
         {
-            RaycastHit hit;
-            var ray = new Ray(Camera.main.transform.position, Camera.main.transform.forward);
-
-            if (Physics.Raycast(ray, out hit) && hit.transform == transform)
-            {
-                parentCube.RotateCubeOnClick();
-            }
+            Debug.Log("here");
+            
+            parentCube.RotateCubeOnClick();
         }
     }
 }
