@@ -21,10 +21,11 @@ public class RotationCube : MonoBehaviour
 
     public void RotateCubeOnClick()
     {
+        Debug.Log("PUTAING");
         if (!isRotating)
         {
             StartCoroutine(RotateCube(90, rotationDuration));
-            Debug.Log("Cube bougé !");
+            Debug.Log("Cube bougï¿½ !");
         }
     }
 

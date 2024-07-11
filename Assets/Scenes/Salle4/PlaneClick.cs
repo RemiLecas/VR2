@@ -1,45 +1,32 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
+using UnityEngine.EventSystems;
+using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.InputSystem;
 using UnityEngine.XR;
-using UnityEngine.XR.Interaction.Toolkit;
 
-public class PlaneClick : MonoBehaviour
+public class PlaneClick : MonoBehaviour, IPointerClickHandler
 {
     public RotationCube rotationCube;
     public InputActionReference selectAction;
+    public UnityEvent onGrab;
+    private XRGrabInteractable _grab;
 
-    void OnEnable()
+
+    private void Awake()
     {
-        // Activez l'action lorsque le script est activé
-        selectAction.action.Enable();
+        _grab = GetComponent<XRGrabInteractable>();
     }
 
-    void OnDisable()
+    public void OnPointerClick(PointerEventData pointerEventData)
     {
-        // Désactivez l'action lorsque le script est désactivé
-        selectAction.action.Disable();
-    }
+        Debug.Log("Pointed");
+        if(selectAction.action.triggered) {
 
-    void Update()
-    {
-        // Vérifiez si l'action de sélection a été déclenchée cette frame
-        if (selectAction.action.triggered)
-        {
-            // Lancez un raycast depuis la position de la caméra vers la direction de la souris
-            Ray ray = Camera.main.ScreenPointToRay(Mouse.current.position.ReadValue());
-            RaycastHit hit;
-
-            // Si le raycast touche un objet
-            if (Physics.Raycast(ray, out hit))
-            {
-                // Vérifiez si l'objet touché est celui que nous voulons
-                if (hit.collider.gameObject == rotationCube.gameObject)
-                {
-                    rotationCube.RotateCubeOnClick();
-                }
-            }
+            rotationCube.RotateCubeOnClick();
         }
     }
 }
